@@ -1,0 +1,6 @@
+FROM fedora:22
+MAINTAINER "hanno.bean@gmail.com"
+
+RUN dnf update -y
+RUN dnf install -y wget curl unzip  htop
+RUN dnf install -y java-1.8.0-openjdk
